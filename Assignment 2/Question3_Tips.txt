@@ -1,0 +1,4 @@
+assignment 2 question 3:
+use math.floor to ignore decimal places from a number
+use % operator to calculate minutes
+use % 1 to keep only the decimal place #s

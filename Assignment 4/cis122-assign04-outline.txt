@@ -1,0 +1,13 @@
+CIS 122 Fall 2020 Assignment 4 Text File
+Author: Jacob Burke
+Partner: 
+Description: Text file outline that walks through the tought process of creating a program that calculates
+a day in a specific year given, to account for leap years as well 
+
+1. Program opens and prompts the user to type in a year, and a day in that year in that order (Must be integers, with the day being from 1-366),
+   also assigns values to variables
+2. Program then uses the variables to determine if it is a leap year or not using the is_leap_year function
+3. Flow of execution then branches to one of two conditional statements based off of the leap_year function result
+4. The After the pass through of the conditional statments, the values assigned to the temporary variables of x and y then run through multiple
+   chained conidtionals, with relational operators, such as if 1 < x < 31
+5. The conditional then ends, and another set of conditionals are used to display the final results or the correct error messages
